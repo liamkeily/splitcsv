@@ -1,4 +1,4 @@
-# CSV Splitter
+# SplitCSV
 
 ## Installation
 
