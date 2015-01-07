@@ -1,4 +1,4 @@
-from distutils.core import setup
+from setuptools import setup
 
 setup(
     # Application name:
@@ -14,9 +14,10 @@ setup(
     description="A simple csv splitter",
     include_package_data=True,
     packages= ["splitcsv"],
+    url="https://github.com/liamkeily/splitcsv",
     entry_points={
          'console_scripts': [
-             'splitcsv = splitcsv.app.SplitCsv:main',
+             'splitcsv = splitcsv.__main__',
          ],
      }
 )
